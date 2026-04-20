@@ -47,7 +47,7 @@ ORDER BY Total_Sales DESC;
 ---
 
 ## 📊 Power BI Dashboard
-![Power BI Dashboard](screenshots/dashboard.png)
+![Power BI Dashboard](dashboard.png)
 
 ---
 
