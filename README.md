@@ -1,46 +1,62 @@
----
+# 🎮 Video Game Sales Analysis Dashboard
 
-## 📊 Power BI Dashboard
-Features:
-- KPI Cards (Total Sales, Top Genre, Top Platform)
-- Sales Trend Analysis
-- Platform Comparison
-- Regional Sales Insights
-- Interactive Slicers
-
-📸 *(Add dashboard screenshot here)*
+## 📌 Project Overview
+This project analyzes 16,000+ video game sales records to uncover trends in platforms, publishers, genres, and regional performance using Excel, SQL, and Power BI.
 
 ---
 
-## 🔍 Key Insights
-- Nintendo leads global video game sales
-- Action genre is the most popular
-- North America has the highest sales
-- Platform performance varies over time
+## 🎯 Business Problem
+The objective is to identify:
+- Top-performing platforms  
+- Leading publishers  
+- Popular game genres  
+- Regional sales trends  
 
 ---
 
-## 💡 Business Recommendations
-- Focus on high-demand genres
-- Target high-performing regions
-- Align product strategy with platform trends
+## 🛠️ Tools Used
+- Microsoft Excel  
+- Microsoft SQL Server  
+- Microsoft Power BI  
 
 ---
 
-## 📁 Project Structure
+## 📂 Dataset
+- Source: Kaggle  
+- Records: 16,000+  
 
-```text
-video-game-sales-analysis/
-│
-├── data/
-├── sql/
-├── powerbi/
-├── screenshots/
-└── README.md
+---
+
+## 🔄 Data Cleaning (Excel)
+- Removed duplicates  
+- Handled missing values  
+- Standardized columns  
+
+---
+
+## 🧠 SQL Analysis
+
+### Example Query:
+```sql
+SELECT Publisher, SUM(Global_Sales) AS Total_Sales
+FROM video_games
+GROUP BY Publisher
+ORDER BY Total_Sales DESC;
 ```
 
 ---
 
+## 📊 Power BI Dashboard
+(Add screenshot here)
+
+---
+
+## 🔍 Key Insights
+- Nintendo leads global sales  
+- Action genre is most popular  
+
+---
+
 ## 🚀 Outcome
-This project demonstrates end-to-end data analytics skills including data cleaning, SQL analysis, and dashboard creation.
+End-to-end data analytics project using Excel, SQL, and Power BI.
 
